@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
@@ -16,29 +17,34 @@
     <div class= "container">
         <div class="row">
             <div class="col-3">
-                <img src="./assets/mypix.jpeg" alt="Girl in a jacket" width="250px" height="250px">
+                <img src="./assets/mypix.jpg" alt="Avatar" width="250px" height="250px">
             </div>
             <div class="col-6">
-                <h1>STEVE   DOE</h1>
-                <p style="font-family: verdana; font-size: 20px;">Full Stack Developer</p>
-                <p>steve.Doe@website.com</p>
-                <p>012345678900</p>
+                <h1 class="name-color">STEVE   DOE</h1>
+                <p class="job-title">Full Stack Developer</p>
+                <p class="margin-left">steve.Doe@website.com</p>
+                <p class="margin-left">012345678900</p>
             </div>
 <!--            <div class="col-3">-->
 <!--            </div>-->
             <div class="col-3">
-                <p style = 'line-height: 20px'>
-                    <img src = './assets/linkedin.png' alt="Avatar"  style=" vertical-align: middle;  width: 50px;  height: 50px;" /> linkedin.com/in/stevedoe
-                    <img src = './assets/github.png' alt="Avatar" style=" vertical-align: middle;  width: 50px;  height: 50px;" /> github.com/username
-                    <img src = './assets/global.png' alt="Avatar" style=" vertical-align: middle;  width: 50px;  height: 50px;" /> codepen.io/username/
-
+                <p class="font-size">
+                    <img src = './assets/linkedin.png' alt="Avatar" class="icon-style" /> linkedin.com/in/stevedoe
                 </p>
+                <p class="font-size">
+                    <img src = './assets/github.png' alt="Avatar" class="icon-style" /> github.com/username
+                </p>
+                <p class="font-size">
+                    <img src = './assets/global.png' alt="Avatar" class="icon-style"  /> codepen.io/username/
+                </p>
+
+
             </div>
 
         </div>
         <div>
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">CAREER SUMMARY</h1>
-            <p style="margin-top: 20px; ">Summarise your career here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can download this free resume/CV
+            <h1 class="heading" >CAREER SUMMARY</h1>
+            <p >Summarise your career here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can download this free resume/CV
                 template here. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
                 montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
@@ -48,14 +54,14 @@
 
         </div>
         <div>
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">WORK EXPERIENCE</h1>
+            <h1 class="heading">WORK EXPERIENCE</h1>
             <div class="row">
                 <div class="col-11">
                     <ul class="leaders">
-                        <li><p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Lead Developer</p></li>
+                        <li><p class="sub-heading">Lead Developer</p></li>
                         <p>2018 - Present</p>
                         <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-                        <p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Achievements:</p>
+                        <p class="sub-heading">Achievements:</p>
                         <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 
                         <ul class="leaders">
@@ -64,129 +70,167 @@
                             <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
                             <li>Maecenas tempus tellus eget.</li>
                         </ul>
-                        <p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Technnologies used:</p>
-                        <div class="=row" >
-                            <p style=" line-height: 5px;">Angular</p> <p style=" line-height: 5px;">python</p><p style=" line-height: 5px;">JQuery</p><p style=" line-height: 5px;">Webpack</p><p style=" line-height: 5px;">HTML/SASS</p><p style=" line-height: 5px;">PostgressSQL</p>
+                        <p class="sub-heading">Technnologies used:</p>
+                        <div class="inline"  >
+                            <p class="border">Angular</p>
+                            <p class="border">python</p>
+                            <p class="border">JQuery</p>
+                            <p class="border">Webpack</p>
+                            <p class="border">HTML/SASS</p>
+                            <p class="border">PostgressSQL</p>
                         </div>
                     </ul>
                 </div>
                 <div class="col-1">
-                    <p style="margin-top: 20px; font-size: 12px; ">Startup Hub</p>
+                    <p class="font-size">Startup Hub</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-11">
                     <ul class="leaders">
-                        <li><p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Senior Software Developer</p></li>
+                        <li><p class="sub-heading">Senior Software Developer</p></li>
                         <p>2014 - 2018</p>
                         <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-                        <p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Achievements:</p>
+                        <p class="sub-heading">Achievements:</p>
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                        <p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Technnologies used:</p>
-                        <div class="=row" >
-                            <p style=" line-height: 5px;">React</p> <p style=" line-height: 5px;">Redux</p><p style=" line-height: 5px;">Django</p><p style=" line-height: 5px;">Webpack</p><p style=" line-height: 5px;">HTML/SASS</p><p style=" line-height: 5px;">SQL</p>
+                        <p class="sub-heading">Technnologies used:</p>
+                        <div class="inline">
+                            <p class="border">React</p>
+                            <p class="border">Redux</p>
+                            <p class="border">Django</p>
+                            <p class="border">Webpack</p>
+                            <p class="border">HTML/SASS</p>
+                            <p class="border">SQL</p>
                         </div>
                     </ul>
                 </div>
                 <div class="col-1">
-                    <p style="margin-top: 20px; font-size: 12px; ">Google</p>
+                    <p class="font-size">Google</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-11">
                     <ul class="leaders">
-                        <li><p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Co-Founder & Lead Developer</p></li>
+                        <li><p class="sub-heading">Co-Founder & Lead Developer</p></li>
                         <p>2012 - 2014</p>
                         <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
                         </p>
 
-                        <p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Technnologies used:</p>
-                        <div class="=row" >
-                            <p style=" line-height: 5px;">Django</p> <p style=" line-height: 5px;">JavaScript</p><p style=" line-height: 5px;">Node.js</p><p style=" line-height: 5px;">Require.js</p><p style=" line-height: 5px;">HTML/SASS</p>
+                        <p class="sub-heading">Technnologies used:</p>
+                        <div  class="inline" >
+                            <p class="border">Django</p>
+                            <p class="border">JavaScript</p>
+                            <p class="border">Node.js</p>
+                            <p class="border">Require.js</p>
+                            <p class="border">HTML/SASS</p>
                         </div>
                     </ul>
                 </div>
                 <div class="col-1">
-                    <p style="margin-top: 20px; font-size: 12px; ">To-do Lists </p>
+                    <p class="font-size">To-do Lists </p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-11">
                     <ul class="leaders">
-                        <li><p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Web Developer</p></li>
+                        <li><p class="sub-heading">Web Developer</p></li>
                         <p>2011 - 2012</p>
                         <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum</p>
                         <br>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
 
-                        <p style="margin-top: 20px; font-weight: bold; font-size: 16px; font-family: Verdana">Technnologies used:</p>
-                        <div class="=row" >
-                            <p style=" line-height: 5px;">Django</p> <p style=" line-height: 5px;">JavaScript</p><p style=" line-height: 5px;">Node.js</p><p style=" line-height: 5px;">Require.js</p><p style=" line-height: 5px;">HTML/SASS</p>
+                        <p class="sub-heading">Technnologies used:</p>
+                        <div class="inline">
+                            <p class="border">Django</p>
+                            <p class="border">JavaScript</p>
+                            <p class="border">Node.js</p>
+                            <p class="border">Require.js</p>
+                            <p class="border">HTML/SASS</p>
                         </div>
                     </ul>
                 </div>
                 <div class="col-1">
-                    <p style="margin-top: 20px; font-size: 12px; ">Amazon</p>
+                    <p class="font-size">Amazon</p>
                 </div>
             </div>
 
         </div>
         <div>
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">SKILLS & TOOLS</h1>
+            <h1 class="heading">SKILLS & TOOLS</h1>
 
             <br>
-            <p style=" font-weight: bold; font-size: 14px; font-family: Verdana">Frontend</p>
-            <p style=" line-height: 5px;">Angular</p><p style=" line-height: 5px;">React</p><p style=" line-height: 5px;">JavaScript</p><p style=" line-height: 5px;">Node.js</p><p style=" line-height: 5px;">HTML/CSS/SASS/LESS</p>
+            <p class="sub-title">Frontend</p>
+            <p >Angular</p>
+            <p >React</p>
+            <p >JavaScript</p>
+            <p >Node.js</p>
+            <p >HTML/CSS/SASS/LESS</p>
 
-            <p style=" font-weight: bold; font-size: 14px; font-family: Verdana">Backend</p>
-            <p style=" line-height: 5px;">Python/Django</p><p style=" line-height: 5px;">Ruby/Rails</p><p style=" line-height: 5px;">PHP</p><p style=" line-height: 5px;">Wordpress/Shopify</p><p style=" line-height: 5px;">HTML/CSS/SASS/LESS</p>
+            <p class="sub-title">Backend</p>
+            <p >Python/Django</p>
+            <p >Ruby/Rails</p>
+            <p >PHP</p>
+            <p >Wordpress/Shopify</p>
+            <p >HTML/CSS/SASS/LESS</p>
 
-            <p style=" font-weight: bold; font-size: 14px; font-family: Verdana">Others</p>
-            <p style=" line-height: 5px;">Devops</p><p style=" line-height: 5px;">Code Review</p><p style=" line-height: 5px;">Git</p>
-            <p style=" line-height: 5px;">Unit Testing</p><p style=" line-height: 5px;">Wireframing</p>
-            <p style=" line-height: 5px;">Sketon</p><p style=" line-height: 5px;">Sketon</p><p style=" line-height: 5px;">Balsaming</p><p style=" line-height: 5px;">Wordpress</p><p style=" line-height: 5px;">Shopify</p>
+            <p class="sub-title">Others</p>
+            <div class="inline">
+                <p class="border">Devops</p>
+                <p class="border">Code Review</p>
+                <p class="border" >Git</p>
+                <p class="border">Unit Testing</p>
+                <p class="border">Wireframing</p>
+                <p class="border">Sketon</p>
+                <p class="border">Balsaming</p>
+                <p class="border">Wordpress</p>
+                <p class="border">Shopify</p>
+
+            </div>
 
         </div>
 
         <div>
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">Education</h1>
-            <h2 style="margin-top: 12px; font-weight: bold;font-family: verdana; font-size:14px">MSc in Computer Science</h2>
-            <p style = 'line-height: 5px'>Univeristy College London</p>
+            <h1 class="heading">Education</h1>
+            <h2 class="sub-title2">MSc in Computer Science</h2>
+            <p >Univeristy College London</p>
             <p >2010-2011</p>
 
-            <h2 style="line-height: 5px; font-weight: bold;font-family: verdana; font-size:14px">BSc Maths and Physics</h2>
+            <h2 class="sub-title2">BSc Maths and Physics</h2>
             <p >Imperial College London</p>
-            <p style = 'line-height: 5px'>2007 - 2010</p>
+            <p >2007 - 2010</p>
         </div>
-        <div style = 'line-height: 20px;'>
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">AWARDS</h1>
+        <div >
+            <h1 class="heading">AWARDS</h1>
 
-            <p style = ' font-weight: bold'>
-                <img src = './assets/trophy.jpg' alt="Avatar"  style=" vertical-align: middle;  width: 15px;  height: 15px;" />Award Name Lorem
+            <p class="font-weight">
+                <img src = './assets/trophy.jpg' alt="Avatar"  class="icon-style" />Award Name Lorem
             </p>
-            <p style=" line-height: 5px;" >Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
+            <p class="line-height" >Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
 
-            <p style = ' font-weight: bold'>
-                <img src = './assets/trophy.jpg' alt="Avatar"  style=" vertical-align: middle;  width: 15px;  height: 15px;" />Award Name Lorem
+            <p class="font-weight">
+                <img src = './assets/trophy.jpg' alt="Avatar"  class="icon-style" />Award Name Lorem
             </p>
-            <p style=" line-height: 5px;">Award desc goes here, ultricies nec, pellentesque</p>
+            <p class="line-height">Award desc goes here, ultricies nec, pellentesque</p>
         </div>
         <div>
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">LANGUAGE</h1>
+            <h1 class="heading">LANGUAGE</h1>
+            <p class="font-weight">English<span class="font-normal">(native)</span></p>
+            <p class="font-weight">French <span class="font-normal">(Professional)</span></p>
+            <p class="font-weight">Spanish <span class="font-normal">(Professional)</span></p>
 
 
         </div>
-        <div style="line-height: 5px">
-            <h1 style="margin-top: 20px; font-weight: bold;font-family: verdana; font-size:18px">INTERESTS</h1>
-            <p style="font-size: 14px">Climbling</p>
-            <p style="font-size: 14px">SnowBoarding</p>
-            <p style="font-size: 14px">Cooking</p>
+        <div >
+            <h1 class="heading ">INTERESTS</h1>
+            <p class="font">Climbling</p>
+            <p class="font">SnowBoarding</p>
+            <p class="font">Cooking</p>
 
         </div>
 
